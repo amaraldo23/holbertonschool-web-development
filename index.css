@@ -1,9 +1,11 @@
-.title {
+.title , .description{
     color: red;
     font-size: 25px;
     text-decoration: underline;
 }
 
-#tite{
-
+.description{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
+
