@@ -74,7 +74,7 @@ header > a >img{
 
 }
 
-.bottom-header{
+.bottom-header {
     width: 100%;
     overflow: hidden;
 
@@ -119,4 +119,99 @@ header > a >img{
     text-align: center;
 }
 
+
 /************************* header styles *********************/
+
+/*************************** midle-menu ******************/
+
+.midle-menu {
+ padding: 100px;
+ background-color: #c271ff;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+.midle-menu-img{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.midle-menu-img > img {float:right}
+
+.midle-menu-desc{
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.midle-menu-desc > p {
+    margin:10px 0px 0px 40px ;
+}
+
+.midle-menu-desc > p:first-of-type{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.midle-menu-desc > p:last-of-type{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.midle-menu blockquote{
+    font-size: 15px;
+    width: 50%;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+
+
+/*************************** midle-menu ******************/
+
+/*****************video-container****************************/
+
+.video-container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.video{
+    width: 24%;
+    display: inline-block;
+}
+
+.video-container-text h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.video-container-text h1 > span {
+    color: #c271ff;
+}
+
+
+.video> img {
+
+    overflow: auto;
+    display: inline;
+}
+
+
+.rating-container img {
+
+
+}
+
+.rating-container > div > p {
+    width: 100px;
+    float: right;
+    margin: 0;
+}
