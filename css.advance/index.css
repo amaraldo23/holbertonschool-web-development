@@ -266,7 +266,7 @@ header > a >img{
     color: #94a3b8;
 }
 
-button {
+.menu-memberships button {  
     background-color: #a855f7;
     color: #ffffff;
     padding: 10px 20px;
@@ -281,3 +281,4 @@ button:hover {
 }
 
 /********************** membership*****************/
+
