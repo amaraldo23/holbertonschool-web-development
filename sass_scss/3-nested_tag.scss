@@ -3,6 +3,8 @@ $margin: 0px;
 $margin10: 10px;
 body {
     margin: $margin;
-    padding: $margin; }
-    body p {
+    padding: $margin; 
+ 
+    p {
       margin: $margin10; }
+    }
