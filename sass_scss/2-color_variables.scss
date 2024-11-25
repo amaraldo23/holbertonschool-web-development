@@ -1,0 +1,12 @@
+/* My style */
+    $textcolor   $color: #3D3D3D;
+    $background  $backgroundcolor: #6D6D6D;
+body {
+    color: $color;
+    background-color: $backgroundcolor}
+  
+  p {
+    color: $color; }
+  
+  h2 {
+    background-color: $backgroundcolor; }
