@@ -1,0 +1,8 @@
+/* My style */
+$margin: 0px;
+$margin10: 10px;
+body {
+    margin: $margin;
+    padding: $margin; }
+    body p {
+      margin: $margin10; }
