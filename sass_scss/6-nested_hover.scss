@@ -1,12 +1,11 @@
 /* My style */
 $textcolor: #FF0000;
-$textcolorchange: #00FF00;
+$textcolorbutton: #00FF00;
 
 button {
 
     color: $textcolor;  
-    button:hover {
-
-      color: $textcolorchange; }
+      :hover {
+      color: $textcolorbutton; }
 
     }
