@@ -1,15 +1,17 @@
 /* My style */
 
-$margin: 14px;
-$marginh1: 16px;
-$margineh1s: 12px;
+$fontsize: 14px;
+$fontsizeh1: 16px;
+$fontsizeh1s: 12px;
 
 body {
-    font-size: $margin; 
+    font-size: $fontsize; 
 
-    body h1 
-      font-size: $marginh1; 
-
-      h1.smaller { 
-        font-size: $margineh1s; }
-    }
+   h1 { 
+      font-size: $fontsizeh1; 
+    
+     &.smaller { 
+        font-size: $fontsizeh1s; 
+        }
+    }   
+}
