@@ -1,0 +1,18 @@
+/* 10-import_colors.scss */
+/* Import the 10-colors file */
+/* 10-colors.scss */
+/* Define color variables */
+/* Assign text colors to the classes */
+.red {
+  color: #FF0000;
+}
+
+.green {
+  color: #00FF00;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+/*# sourceMappingURL=output.css.map */

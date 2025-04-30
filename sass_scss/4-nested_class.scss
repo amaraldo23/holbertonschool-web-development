@@ -1,9 +1,10 @@
-/* My style */
-$textcolor: #3D3D3D;
-$textcolorRed: #FF0000;
-body {
-    color: $textcolor; 
+// Task: Assign text color #3D3D3D to all elements inside body tags,
+// and text color #FF0000 to any elements with class .red inside body tags using nested declarations.
 
-     .red {
-      color: $textcolorRed; }
-    }    
+body {
+    color: #3D3D3D;
+  
+    .red {
+      color: #FF0000;
+    }
+  }

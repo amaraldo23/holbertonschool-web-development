@@ -1,12 +1,11 @@
-/* My style */
-$textcolor: #FF0000;
-$textcolorbutton: #00FF00;
+// Task: Assign text color #FF0000 to button tags,
+// and change text color to #00FF00 when hovered over.
 
 button {
-
-    color: $textcolor;  
-      &:hover {
-        
-      color: $textcolorbutton; }
-
+    color: #FF0000;
+  
+    &:hover {
+      color: #00FF00;
     }
+  }
+  

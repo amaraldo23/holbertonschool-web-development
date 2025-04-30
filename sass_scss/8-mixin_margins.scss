@@ -1,14 +1,15 @@
-/* My style */
-@mixin margin-left-right($value) {
-    margin-left: $value;
-    margin-right: $value;
+// Define a mixin to apply left and right margins
+@mixin margin-left-right($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
   }
   
+  // Apply the mixin to body and div tags
   body {
-    @include margin-left-right(10px);
+    @include margin-left-right(10px, 10px);
   }
   
   div {
-    @include margin-left-right(15px);
+    @include margin-left-right(15px, 15px);
   }
   

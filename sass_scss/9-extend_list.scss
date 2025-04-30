@@ -1,17 +1,17 @@
-/* My style */
-
+// Define the common styles in the .info class
 .info {
     font-size: 12px;
   }
   
+  // .success extends .info and adds its own color
   .success {
     @extend .info;
     color: #00FF00;
   }
   
+  // .warning extends .info and adds its own color
   .warning {
     @extend .info;
     color: #FF0000;
   }
-  
   

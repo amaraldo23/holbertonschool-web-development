@@ -1,12 +1,18 @@
-/* My style */
-    $textcolor: #3D3D3D;
-    $background: #6D6D6D;
+// Task: Assign the text color #3D3D3D to the HTML tags body and p and 
+// the background color #6D6D6D to the HTML tags body and h2 using two Sass variables.
+
+$text-color: #3D3D3D;
+$bg-color: #6D6D6D;
+
 body {
-    color: $textcolor;
-    background-color: $background; }
-  
-  p {
-    color: $textcolor; }
-  
-  h2 {
-    background-color: $background; }
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+p {
+  color: $text-color;
+}
+
+h2 {
+  background-color: $bg-color;
+}
